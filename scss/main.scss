@@ -1,0 +1,1351 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  font-family: "Open Sans";
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.input-group {
+  margin-top: 20px;
+  outline: none;
+}
+
+.input-group input {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.input-group button {
+  font-size: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #6acaca;
+  border: none;
+  color: white;
+}
+
+.input-group button:hover {
+  background-color: #6acaca;
+  border: none;
+}
+
+.rome {
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.bxslider li {
+  height: 100vh;
+  padding: 100px;
+}
+
+.bx-viewport {
+  background-color: black;
+}
+
+.titre2 {
+  display: inline-block;
+}
+
+.changeColor {
+  display: inline-block;
+  color: #6acaca;
+}
+
+.bx-wrapper {
+  border: none;
+}
+
+.bora-bora {
+  background-image: url("../img/bora-bora.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.montagne {
+  background-image: url("../img/montagne.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.van-covoit {
+  background-image: url("../img/van_covoit.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.desk {
+  background-image: url("../img/desk.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.buttons {
+  position: absolute;
+  top: 500px;
+  left: 250px;
+  right: auto;
+  z-index: 9998;
+}
+
+.buttons li {
+  display: inline-block;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.slides {
+  color: white;
+  text-decoration: none;
+}
+
+.slides:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.slides:target {
+  text-decoration: none;
+  border-bottom: 4px white solid;
+}
+
+#slide0.active,
+#slide0:hover,
+#slide1.active,
+#slide1:hover,
+#slide2.active,
+#slide2:hover,
+#slide3.active,
+#slide3:hover {
+  border-bottom: white 3px solid;
+}
+
+.fa-google {
+  color: red;
+}
+
+#presentation-webSite .paragraphePresentation {
+  margin-top: 30px;
+}
+
+#presentation-webSite .titrePresentation {
+  margin-bottom: 20px;
+}
+
+#presentation-webSite .titrePresentation h3 {
+  font-weight: 700;
+}
+
+#presentation-webSite .textPresentation {
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+
+#presentation-webSite .btn-info {
+  background-color: #6acaca;
+  border: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#voyageurs {
+  margin-top: 50px;
+}
+
+#voyageurs .h2 {
+  margin-top: 20px;
+}
+
+#voyageurs .container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#voyageurs .card {
+  border: none;
+}
+
+#voyageurs .card-img-top {
+  border-radius: 50%;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 65px;
+  margin-top: 20px;
+  border: 2px solid #6acaca;
+}
+
+#voyageurs .card-body {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #f3f3f3b6;
+}
+
+#voyageurs p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#voyageurs .star {
+  color: #e6cf0f;
+  text-align: center;
+}
+
+#packages {
+  margin-top: 50px;
+}
+
+#packages img {
+  width: 350px;
+  height: 200px;
+}
+
+#packages .row {
+  margin-top: 20px;
+}
+
+#packages .textColor {
+  color: #cc6600;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#packages .textColor1 {
+  color: #618132;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#packages .textColor2 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#packages .titrePackage {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#packages .paragraphePackage {
+  font-size: 13px;
+}
+
+#lastAnnonces {
+  text-align: center;
+  margin: 50px 20px;
+}
+
+#lastAnnonces h2 {
+  margin-bottom: 20px;
+}
+
+#lastAnnonces .titleCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#lastAnnonces a {
+  color: black;
+  text-decoration: none;
+}
+
+#lastAnnonces i {
+  color: gray;
+  font-size: 25px;
+}
+
+#lastAnnonces .card {
+  background-color: #f3f3f38c;
+  border: none;
+  margin-bottom: 20px;
+}
+
+#lastAnnonces .card-title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 10px;
+  align-self: flex-start;
+  color: #6acaca;
+}
+
+#lastAnnonces .hashtagActivites {
+  font-size: 14px;
+  color: #6acaca;
+}
+
+#lastAnnonces .pricePlaces {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col_white_amrc {
+  color: #FFF;
+}
+
+footer {
+  width: 100%;
+  background-color: #263238;
+  min-height: 250px;
+  padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #CCC;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+  margin: 0px;
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+  padding: 0px 0px 5px 0px;
+}
+
+.footer_ul_amrc li a {
+  color: #CCC;
+}
+
+.footer_ul_amrc li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fleft {
+  float: left;
+}
+
+.padding-right {
+  padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+  display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+  text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+  margin-top: 5px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #323f45;
+  padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+  list-style-type: none;
+  padding: 0px;
+  display: table;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+  display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+  color: #999;
+  margin: 0 12px;
+}
+
+.social_footer_ul {
+  display: table;
+  margin: 15px auto 0 auto;
+  list-style-type: none;
+}
+
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.social_footer_ul li a {
+  color: #CCC;
+  border: 1px solid #CCC;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+#exampleModalCenter {
+  z-index: 9999;
+}
+
+#exampleModalCenter input {
+  margin: 5px auto;
+  text-align: center;
+  border: 1px solid #e9e8e8;
+}
+
+#exampleModalCenter .input-group {
+  margin-bottom: 10px;
+}
+
+#exampleModalCenter .input-social {
+  border-top: 1px lightgray solid;
+  padding-top: 10px;
+}
+
+#exampleModalCenter .input-social i {
+  margin-right: 10px;
+}
+
+#exampleModalCenter .input-social .btn-primary {
+  background-color: #3a5998;
+  border: none;
+}
+
+#exampleModalCenter .modal-footer .btn-primary {
+  background-color: #6acaca;
+  border: none;
+}
+
+#exampleModalCenter .modal-footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#menuConnect {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+  padding: 15px;
+  top: 85%;
+  height: 15%;
+  width: 100%;
+  color: white;
+}
+
+#menuConnect .col-3, #menuConnect .col-4 {
+  border-left: 1px solid white;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+#menuConnect h6 {
+  color: #6acaca;
+  padding-bottom: 11px;
+}
+
+#menuConnect a {
+  color: white;
+  font-size: 13px;
+}
+
+#menuConnect a.liens-profil {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+#menuConnect a.liens-profil:hover {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#menuConnect .button-access-profil {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 2px 20px;
+  margin-top: 10px;
+}
+
+#menuConnect .button-access-profil:hover {
+  text-decoration: none;
+}
+
+#profil-page {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  height: 100%;
+}
+
+#profil-page .module-profil {
+  background-color: #6acaca;
+  padding: 20px 70px;
+  border-radius: 20px;
+}
+
+#profil-page .module-profil h2 {
+  display: inline-block;
+  background-color: white;
+  color: #6acaca;
+  font-size: 50px;
+  letter-spacing: 20px;
+  padding-left: 10px;
+}
+
+#profil-page .module-profil h3,
+#profil-page .module-profil p {
+  color: white;
+}
+
+#profil-page .module-profil p {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+#profil-page .module-profil .star {
+  color: #e6cf0f;
+  margin-bottom: 20px;
+}
+
+#profil-page .module-profil a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+#profil-page .module-profil .liens-voyages {
+  margin-left: 20px;
+  font-size: 14px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+
+#profil-page .module-profil .button-bottom {
+  margin: 10px auto;
+}
+
+#profil-page .module-profil .button-bottom .buttonComment {
+  border-radius: 10px;
+  border: 1px solid white;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px auto;
+}
+
+#profil-page .module-profil .button-bottom .buttonMail {
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: white;
+  color: #6acaca;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px auto;
+}
+
+#profil-page .module-profil .button-bottom .buttonWarning {
+  border-radius: 10px;
+  border: 1px solid #a32727;
+  background-color: #a32727;
+  text-align: center;
+  padding: 10px auto;
+}
+
+#profil-page .card-profil .card {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#profil-page .card-profil .h2 {
+  margin-top: 20px;
+}
+
+#profil-page .card-profil .container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#profil-page .card-profil .card {
+  border: none;
+}
+
+#profil-page .card-profil .card-img-top {
+  border-radius: 50%;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 65px;
+  margin-top: 20px;
+  border: 2px solid #6acaca;
+}
+
+#profil-page .card-profil .card-body {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #e6e6e6;
+}
+
+#profil-page .card-profil p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+}
+
+#profil-page .card-profil .star {
+  color: #e6cf0f;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#profil-page .titreVoyages,
+#profil-page .titreAnnonces,
+#profil-page .titreCommentaires {
+  margin-bottom: 20px;
+}
+
+.module-profil-nom {
+  background-color: #6acaca;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.module-profil-nom .image-map {
+  background-image: url("../img/carte-bordeaux.png");
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.module-profil-nom .col-7 {
+  color: white;
+  text-align: center;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.module-profil-nom .col-7 .module-profil-name {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.module-profil-nom .col-7 .module-profil-surname {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.module-profil-nom .col-7 .module-profil-age {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.module-profil-nom .col-7 .module-profil-city {
+  background-color: white;
+  color: #6acaca;
+  font-size: 20px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.image-profil {
+  background-image: url("../img/attractive-beard-blue-background-1080243.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.breadcrumbAnnonce2 {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+.breadcrumbAnnonce2 ol {
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.breadcrumbAnnonce2 ol .breadcrumb-item a {
+  color: #6acaca;
+}
+
+#galery-images {
+  height: 100%;
+  padding-top: 0px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+#galery-images .fullWidth {
+  border-radius: 10px;
+  background-image: url("../img/_75459_15289895387309.jpg");
+  background-size: cover;
+  height: 480px;
+}
+
+#galery-images .image1,
+#galery-images .image2,
+#galery-images .image3,
+#galery-images .image4,
+#galery-images .image5 {
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 230px;
+}
+
+#galery-images .image2,
+#galery-images .image3,
+#galery-images .image4,
+#galery-images .image5 {
+  margin: 15px auto;
+}
+
+#galery-images .image1 {
+  background-image: url("../img/2b9355644c3319d0c676895002c902f7.jpg");
+  margin-bottom: 20px;
+}
+
+#galery-images .image2 {
+  background-image: url("../img/tour_img-335314-148.jpg");
+}
+
+#galery-images .image3 {
+  background-image: url("../img/quad_family_room_50079_15289905543398.jpg");
+}
+
+#galery-images .image4 {
+  background-image: url("../img/4_bed_dorm_mixed_4250115099654391016.jpg");
+}
+
+#galery-images .image5 {
+  background-image: url("../img/Tour-Eiffel-Trocadero-630x405-C-Thinkstock.jpg");
+}
+
+#presentation-annonce {
+  margin-bottom: 30px;
+}
+
+#presentation-annonce .info-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+#presentation-annonce .module-presentation-text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#presentation-annonce .module-presentation {
+  background-color: #6acaca;
+  border-radius: 20px;
+}
+
+#presentation-annonce .module-presentation .imageMap {
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#presentation-annonce .module-presentation h2 {
+  font-size: 30px;
+  margin: auto 30px;
+  padding: auto;
+  color: white;
+  font-weight: 700;
+}
+
+#presentation-annonce .module-presentation h3 {
+  font-size: 20px;
+  margin: auto 30px;
+  color: white;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+#presentation-annonce .module-presentation h4 {
+  font-size: 14px;
+  margin: auto 30px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#presentation-annonce .module-presentation li {
+  display: inline-block;
+  font-size: 13px;
+  margin: auto 30px;
+  color: white;
+  padding-bottom: 0px;
+  border-bottom: 1px solid white;
+  list-style-type: none;
+}
+
+#presentation-annonce .module-presentation li .link2 {
+  margin-bottom: 10px;
+}
+
+#presentation-annonce .module-presentation .info-activitees {
+  margin-top: 10px;
+}
+
+#presentation-annonce .card {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#presentation-annonce .card .btn-light {
+  color: #6acaca;
+}
+
+#presentation-annonce .card-img-top {
+  border-radius: 50%;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  margin-left: 35%;
+  margin-top: 20px;
+  border: 2px solid #6acaca;
+}
+
+#presentation-annonce .card-body {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-color: #6acaca;
+  width: auto;
+  margin-right: 25px;
+}
+
+#presentation-annonce p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+#presentation-annonce .star {
+  color: #e6cf0f;
+  text-align: center;
+}
+
+#informations-annonces {
+  margin-bottom: 80px;
+}
+
+#commentaires-annonces {
+  margin-bottom: 40px;
+}
+
+#commentaires-annonces .form-control {
+  border: 1px solid #6acaca;
+  font-size: 14px;
+}
+
+#commentaires-annonces .input-group button {
+  font-size: 15px;
+}
+
+#commentaires-annonces img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+#commentaires-annonces .bulleCommentaireVoyageurs {
+  display: flex;
+  margin-top: 20px;
+}
+
+#commentaires-annonces .bulleCommentaireVoyageurs p {
+  padding: 20px;
+  border: 1px solid #6acaca;
+  border-radius: 10px;
+  color: #5c5b5b;
+}
+
+#commentaires-annonces .bulleCommentaireHote {
+  display: flex;
+  margin-top: 20px;
+}
+
+#commentaires-annonces .bulleCommentaireHote p {
+  padding: 20px;
+  background-color: #6acaca;
+  border-radius: 10px;
+  color: white;
+}
+
+#commentaires-annonces .moreView {
+  padding: 5px 60px;
+  background-color: white;
+  color: #6acaca;
+  border: 1px solid #6acaca;
+  border-radius: 10px;
+}
+
+#commentaires-annonces .moreView:hover {
+  background-color: #6acaca;
+  color: white;
+  order: 1px solid #6acaca;
+}
+
+#searchAnnonce {
+  background-color: white;
+  margin-top: 0px;
+  position: fixed;
+  z-index: 9998;
+  width: 100%;
+}
+
+#searchAnnonce .formAnnonceInput {
+  margin-top: 40px;
+}
+
+#searchAnnonce .rome {
+  border-radius: 10px;
+  border: solid 2px rgba(128, 128, 128, 0.1);
+  margin-right: 5px;
+}
+
+#searchAnnonce .form-control-ronded {
+  border-radius: 10px;
+  border-left-width: 2px;
+  margin-right: 5px;
+  padding-left: 20px;
+  border: solid 2px rgba(128, 128, 128, 0.1);
+}
+
+.buttonsFilterAnnonces {
+  background-color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  z-index: 9998;
+}
+
+.buttonsFilterAnnonces .btn-white {
+  color: gray;
+}
+
+.buttonsFilterAnnonces .btn-white:hover {
+  color: #6acaca;
+}
+
+#exampleModalOne,
+#exampleModalTwo,
+#exampleModalThree,
+#exampleModalFor,
+#exampleModalFive {
+  margin-top: 150px;
+}
+
+#exampleModalOne .modal-dialog,
+#exampleModalTwo .modal-dialog,
+#exampleModalThree .modal-dialog,
+#exampleModalFor .modal-dialog,
+#exampleModalFive .modal-dialog {
+  max-width: 650px;
+  margin-left: 0px;
+}
+
+.breadcrumbAnnonce {
+  background-color: white;
+  padding-top: 170px;
+  width: 100%;
+}
+
+.breadcrumbAnnonce ol {
+  background-color: white;
+}
+
+.breadcrumbAnnonce ol .breadcrumb-item a {
+  color: #6acaca;
+}
+
+#modulesAnnonces {
+  padding-top: 0px;
+}
+
+#modulesAnnonces .annonce1module {
+  background-color: rgba(211, 211, 211, 0.25);
+  border-radius: 10px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+#modulesAnnonces .annonce1module .col-6 {
+  padding-left: 0px;
+}
+
+#modulesAnnonces .annonce1module .row {
+  margin-left: auto;
+}
+
+#modulesAnnonces .annonce1module .titleModuleAnnonce {
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+#modulesAnnonces .annonce1module .locationModuleAnnonce {
+  padding-bottom: 2px;
+  font-size: 14px;
+  color: #6acaca;
+}
+
+#modulesAnnonces .annonce1module .locationModuleAnnonce a {
+  color: #6acaca;
+}
+
+#modulesAnnonces .annonce1module .priceModuleAnnonce {
+  margin: 0px;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+#modulesAnnonces .annonce1module .priceModuleAnnonce p {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+#modulesAnnonces .annonce1module .dateModuleAnnonce {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+#modulesAnnonces .annonce1module .activitesModuleAnnonce {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#modulesAnnonces .annonce1module .hashtagModuleAnnonce {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+#modulesAnnonces .annonce1module .hashtagModuleAnnonce a {
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 100;
+}
+
+#modulesAnnonces .annonce1module .noteModuleAnnonce {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#modulesAnnonces .annonce1module .star {
+  padding-bottom: 10px;
+  color: #e6cf0f;
+}
+
+#modulesAnnonces .annonce1image,
+#modulesAnnonces .annonce2image,
+#modulesAnnonces .annonce3image {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+#modulesAnnonces .annonce1image {
+  background-image: url("../img/_75459_15289895387309.jpg");
+}
+
+#modulesAnnonces .annonce2image {
+  background-image: url("../img/4_bed_dorm_mixed_4250115099654391016.jpg");
+}
+
+#modulesAnnonces .annonce3image {
+  background-image: url("../img/quad_family_room_50079_15289905543398.jpg");
+}
+
+#modulesAnnonces .mapAnnonce {
+  width: 520px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+#modulesAnnonces .mapAnnonce.fixed {
+  position: fixed;
+  top: 200px;
+}
+
+#modulesAnnonces .mapAnnonce.bottom {
+  position: absolute;
+  bottom: 20px;
+}
+
+#mentionsLegales {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+#mentionsLegales .nav-link {
+  background-color: white;
+  color: gray;
+}
+
+#mentionsLegales .nav-link:hover {
+  border-bottom: 2px solid #6acaca;
+  border-radius: 0;
+}
+
+#mentionsLegales h3 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #6acaca;
+  font-weight: 100;
+}
+
+#mentionsLegales p {
+  color: gray;
+}
+
+#mentionsLegales .paragraphOne {
+  line-height: 10px;
+}
+
+#navbar-example3 {
+  margin-top: 40px;
+}
+
+#creation1 {
+  padding-top: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+#creation1 .background-image {
+  background-image: url("../img/adventure-casual-cheerful-541518.jpg");
+  background-size: cover;
+  background-position: Opx center;
+  height: 100vh;
+  width: 100%;
+  padding-top: 80px;
+}
+
+#creation1 .background-image .moduleBlanc {
+  background-color: white;
+  border-radius: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#creation1 .background-image .moduleBlanc .textModule {
+  padding-top: 110px;
+  padding-left: 40px;
+}
+
+#creation1 .background-image .moduleBlanc .textModule h2 {
+  font-weight: 600;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+#creation1 .background-image .moduleBlanc .textModule .ecartLine {
+  margin-bottom: 20px;
+}
+
+#creation1 .background-image .moduleBlanc .textModule p {
+  line-height: 20px;
+  font-size: 25px;
+  color: #6acaca;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation {
+  padding-top: 110px;
+  padding-right: 40px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation h2 {
+  color: #6acaca;
+  margin-bottom: 10px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .form-control {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .form-control2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .controlValidation {
+  margin-left: -40px;
+  padding-bottom: 10px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .form-control-chiffre {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 80px;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .form-row {
+  margin-bottom: 20px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation .custom-control-inline {
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation a {
+  text-decoration: none;
+  width: 100%;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation a .btn-primary {
+  background-color: #6acaca;
+  border: 1px solid #6acaca;
+  font-size: 30px;
+}
+
+#creation1 .background-image .moduleBlanc .inputModuleCreation a .btn-primary:hover {
+  background-color: white;
+  color: #6acaca;
+  border: 1px solid #6acaca;
+  font-size: 30px;
+}
+
+.container {
+  align-content: center;
+}
+
+header .navbar {
+  background-color: white;
+  z-index: 9999;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .img-position img {
+  height: 40px;
+  width: auto;
+  padding-right: 20px;
+}
+
+header .btn-outline-success {
+  background-color: #6acaca;
+  color: white;
+  border-color: white;
+}
+
+header .btn-outline-success:hover {
+  background-color: white;
+  color: #6acaca;
+  border-color: #6acaca;
+}
+
+header .btn-outline-grey {
+  border-color: #6acaca;
+  border-radius: 50px;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.form-inline-connect {
+  border: 1px solid #6acaca;
+  border-radius: 50px;
+  margin-right: 20px;
+  padding-left: 15px;
+}
+
+.form-inline-connect img {
+  width: 36px;
+  height: auto;
+  border-radius: 60px;
+}
+
+.form-inline-connect .button-connected {
+  padding-right: 10px;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.titre-carousel {
+  margin-top: 15%;
+  margin-bottom: 20%;
+}
+
+.titre-carousel h2 {
+  text-align: left;
+  margin-bottom: 0px;
+  color: white !important;
+  font-weight: 700;
+}
+
+#home-page-accueil {
+  background-image: url(../img/bora-bora.jpg);
+}
+
+#presentation-webStite {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=main.scss.map */
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=main.scss.map */

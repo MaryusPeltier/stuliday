@@ -1,0 +1,33 @@
+#exampleModalCenter{
+    z-index: 9999;
+    & input{
+        margin:5px auto;
+        text-align: center;
+        border: 1px solid rgb(233, 232, 232);
+    }
+    & .input-group{
+        margin-bottom:10px;
+    }
+    & .input-social{
+        border-top:1px lightgray solid;
+        padding-top:10px;
+        & i{
+            margin-right: 10px;
+        }
+        & .btn-primary{
+            background-color: #3a5998;
+            border: none;
+
+        }
+    }
+    & .modal-footer{
+        & .btn-primary{
+            background-color:#6acaca;
+            border:none;
+        }
+        & a{
+            text-decoration: none;
+            color:white;
+        }
+    }
+}

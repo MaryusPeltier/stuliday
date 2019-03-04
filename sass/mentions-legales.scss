@@ -1,0 +1,27 @@
+#mentionsLegales{
+    padding-top:70px;
+    padding-bottom: 50px;
+    & .nav-link{
+        background-color: white;
+        color: gray;
+        &:hover{
+            border-bottom: 2px solid #6acaca;
+            border-radius: 0;
+        }
+    }
+    & h3{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        color: #6acaca;
+        font-weight: 100;
+    }
+    & p{
+        color: gray;
+    }
+    & .paragraphOne{
+        line-height: 10px;
+    }
+}
+#navbar-example3{
+    margin-top: 40px;
+}

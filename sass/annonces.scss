@@ -1,0 +1,158 @@
+#searchAnnonce{
+    background-color:white;
+    margin-top:0px;
+    position: fixed;
+    z-index: 9998;
+    width: 100%;
+    & .formAnnonceInput{
+        margin-top: 40px;
+    }
+    & .rome{
+        border-radius: 10px;
+        border: solid 2px rgba(128, 128, 128, 0.10);
+        margin-right: 5px;
+    }
+    & .form-control-ronded{
+        border-radius: 10px;
+        border-left-width: 2px;
+        margin-right: 5px;
+        padding-left: 20px;
+        border: solid 2px rgba(128, 128, 128, 0.10);
+    }
+}
+.buttonsFilterAnnonces{
+    background-color:white;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    z-index: 9998;
+    & .btn-white{
+        color:gray;
+        &:hover{
+            color:#6acaca;
+        }
+    }
+}
+#exampleModalOne,
+#exampleModalTwo,
+#exampleModalThree,
+#exampleModalFor,
+#exampleModalFive{
+    margin-top:150px;
+    & .modal-dialog{
+        max-width: 650px;
+        margin-left: 0px;
+
+    }
+}
+.breadcrumbAnnonce{
+    background-color:white;
+    padding-top:170px;
+    width: 100%;
+    & ol{
+        background-color:white;
+            & .breadcrumb-item{
+                & a{
+                    color:#6acaca;
+                }
+            }
+    }
+}
+#modulesAnnonces{
+    padding-top: 0px;
+    & .annonce1module{
+        background-color: rgba(211, 211, 211, 0.25);
+        border-radius: 10px;
+        line-height: 20px;
+        margin-bottom:20px;
+        & .col-6{
+            padding-left: 0px;
+        }
+        & .row{
+            margin-left: auto;
+        }
+        & .titleModuleAnnonce{
+            margin-top:10px;
+            font-weight: 600;
+            margin-bottom: 0px;
+        }
+        & .locationModuleAnnonce{
+            padding-bottom: 2px;
+            font-size: 14px;
+            color:#6acaca;
+            & a{
+                color:#6acaca;
+            }
+        }
+        & .priceModuleAnnonce{
+            margin: 0px;
+            padding: 0px;
+            justify-content: space-between;
+            & p{
+                display: inline-block;
+                margin-right:10px;
+                margin-bottom:0px;
+                font-weight: 600;
+            }
+        }
+        & .dateModuleAnnonce{
+            margin-bottom: 5px;
+            font-size: 12px;
+        }
+        & .activitesModuleAnnonce{
+            margin-bottom:0px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        & .hashtagModuleAnnonce{
+            margin-bottom:0px;
+            padding-bottom:5px;
+            font-size: 12px;
+            & a{
+                display: inline-block;
+                margin-right:5px;
+                font-weight: 100;
+            }
+        }
+        & .noteModuleAnnonce{
+            margin-bottom:0px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        & .star{
+            padding-bottom:10px;
+            color:#e6cf0f;
+        }
+    }
+    & .annonce1image,
+    .annonce2image,
+    .annonce3image,{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+    }
+    & .annonce1image{
+        background-image: url('../img/_75459_15289895387309.jpg');
+    }
+    & .annonce2image{
+        background-image: url('../img/4_bed_dorm_mixed_4250115099654391016.jpg');
+    }
+    & .annonce3image{
+        background-image: url('../img/quad_family_room_50079_15289905543398.jpg');
+    }
+    & .mapAnnonce{
+        width: 520px;
+        height: 500px;
+        border-radius: 10px;
+    }
+    & .mapAnnonce.fixed{
+        position:fixed;
+        top:200px;
+    }
+    & .mapAnnonce.bottom{
+        position: absolute;
+        bottom: 20px;
+    }
+
+}

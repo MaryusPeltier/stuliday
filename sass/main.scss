@@ -1,0 +1,90 @@
+@import "text.scss";
+@import "form.scss";
+@import "slider.scss";
+@import "button.scss";
+@import "card.scss";
+@import "packages.scss";
+@import "lastannonces.scss";
+@import "footer.scss";
+@import "modal.scss";
+@import "menu-connect.scss";
+@import "profil.scss";
+@import "profil-annonce.scss";
+@import "annonces.scss";
+@import "mentions-legales.scss";
+@import "creation-annonce.scss";
+
+.container{
+    align-content: center;
+}
+header .navbar{
+    background-color:white;
+    z-index: 9999;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    & .img-position{
+        & img{
+            height: 40px;
+            width: auto;
+            padding-right: 20px;
+        }
+    }
+    & .btn-outline-success{
+            background-color:#6acaca;
+            color: white;
+            border-color:white;
+            &:hover{
+                background-color:white;
+                color: #6acaca;
+                border-color:#6acaca;
+        }
+    }
+    .btn-outline-grey{
+        border-color:#6acaca;
+        border-radius: 50px;
+        padding-right:50px;
+        padding-left:20px;
+    }
+}
+.form-inline-connect{
+    border: 1px solid #6acaca;
+    border-radius: 50px;
+    margin-right: 20px;
+    padding-left:15px;
+    & img{
+        width:36px;
+        height: auto;
+        border-radius:60px;
+    }
+    & .button-connected{
+        padding-right: 10px;
+        padding-top:10px;
+        text-decoration: none;
+        color:black;
+    }
+}
+
+.titre-carousel{
+    margin-top:15%;
+    margin-bottom: 20%;
+    & h2{
+        text-align: left;
+        margin-bottom: 0px;
+        color: white !important;
+        font-weight: 700;
+    }
+}
+#home-page-accueil{
+    background-image:url(../img/bora-bora.jpg);
+}
+#presentation-webStite{
+    display: inline-block;
+    & .backgroundImagePresentation{
+        background-image: url('../img/aeroport.jpg');
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/*# sourceMappingURL=main.scss.map */

@@ -1,0 +1,40 @@
+#menuConnect{
+    position:absolute;
+    background-color:rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+    padding: 15px;
+    top:85%;
+    height:15%;
+    width:100%;
+    color:white;
+    & .col-3, .col-4{
+        border-left: 1px solid white;
+        padding-left:20px;
+        padding-top:5px;
+    }
+    & h6{
+        color: #6acaca;
+        padding-bottom:11px;
+    }
+    & a{
+        color: white;
+        font-size: 13px;
+        &.liens-profil{
+            border-bottom:1px solid rgba(255, 255, 255, 0.7);
+            &:hover{
+                text-decoration:none;
+                border-bottom:none;
+            }
+        }
+    }
+    & .button-access-profil{
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 2px 20px;
+        margin-top: 10px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

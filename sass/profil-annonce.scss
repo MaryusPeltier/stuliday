@@ -1,0 +1,202 @@
+.breadcrumbAnnonce2{
+    background-color:white;
+    padding-top:60px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    padding-left:15px;
+    width: 100%;
+    & ol{
+        background-color:white;
+        margin-bottom:5px;
+            & .breadcrumb-item{
+                & a{
+                    color:#6acaca;
+                }
+            }
+    }
+}
+#galery-images{
+    height: 100%;
+    padding-top:0px;
+    margin-bottom: 20px;
+    margin-right:30px;
+    margin-left:30px;
+    & .fullWidth{
+        border-radius:10px;
+        background-image: url('../img/_75459_15289895387309.jpg');
+        background-size: cover;
+        height: 480px;
+    }
+    & .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5{
+        border-radius:10px;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 230px;
+    }
+    & .image2,
+    .image3,
+    .image4,
+    .image5{
+        margin:15px auto;
+    }
+    & .image1{
+        background-image: url('../img/2b9355644c3319d0c676895002c902f7.jpg');
+        margin-bottom:20px;
+    }
+    & .image2{
+        background-image: url('../img/tour_img-335314-148.jpg');
+    }
+    & .image3{
+        background-image: url('../img/quad_family_room_50079_15289905543398.jpg');
+    }
+    & .image4{
+        background-image: url('../img/4_bed_dorm_mixed_4250115099654391016.jpg');
+    }
+    & .image5{
+        background-image: url('../img/Tour-Eiffel-Trocadero-630x405-C-Thinkstock.jpg');
+    }
+
+}
+#presentation-annonce{
+    margin-bottom:30px;
+    & .info-price{
+        display: flex;
+        justify-content: space-between;
+    }
+    & .module-presentation-text{
+        padding-top:20px;
+        padding-bottom:10px;
+    }
+    & .module-presentation{
+        background-color:#6acaca;
+        border-radius:20px;
+        & .imageMap{
+            background-position: center center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+        }
+        & h2{
+            font-size: 30px;
+            margin:auto 30px;
+            padding:auto;
+            color: white;
+            font-weight: 700;
+        }
+        & h3{
+            font-size:20px;
+            margin:auto 30px;
+            color:white;
+            padding-bottom:5px;
+            font-weight: 600;
+        }
+        & h4{
+            font-size: 14px;
+            margin:auto 30px;
+            color:white;
+            padding-bottom:10px;
+        }
+        & li{
+            display: inline-block;
+            font-size: 13px;
+            margin:auto 30px;
+            color:white;
+            padding-bottom:0px;
+            border-bottom:1px solid white;
+            list-style-type: none; 
+            & .link2{
+                margin-bottom:10px;
+            }
+        }
+        & .info-activitees{
+            margin-top:10px;
+        }
+    }
+    & .card{
+        border:none;
+        background-color: rgba(0, 0, 0, 0);
+        & .btn-light{
+            color:#6acaca;
+        }
+    }
+    & .card-img-top{
+        border-radius: 50%;
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        margin-left:35%;
+        margin-top:20px;
+        border:2px solid #6acaca;
+    }
+    & .card-body{
+        margin-top:50px;
+        padding-top:50px;
+        background-color:#6acaca;
+        width: auto;
+        margin-right:25px;
+    }
+    & p{
+        font-size:13px;
+        font-weight: 600;
+        text-align: center;
+        color:white;
+    }
+    & .star{
+        color: #e6cf0f;
+        text-align: center;
+    }
+}
+#informations-annonces{
+    margin-bottom:80px;
+}
+#commentaires-annonces{
+    margin-bottom: 40px;
+    & .form-control{
+        border: 1px solid #6acaca;
+        font-size: 14px;
+    }
+    & .input-group button{
+        font-size: 15px;
+    }
+    & img{
+        width: 90px;
+        border-radius: 50%;
+    }
+    & .bulleCommentaireVoyageurs{
+        display: flex;
+        margin-top:20px;
+        & p{
+            padding: 20px;
+            border: 1px solid #6acaca;
+            border-radius: 10px;
+            color: rgb(92, 91, 91);
+        }
+    }
+    & .bulleCommentaireHote{
+        display: flex;
+        margin-top:20px;
+        & p{
+            padding: 20px;
+            background-color: #6acaca;
+            border-radius: 10px;
+            color: white;
+        }
+    }
+    & .moreView{
+        padding: 5px 60px;
+        background-color:white;
+        color: #6acaca;
+        border:1px solid #6acaca;
+        border-radius: 10px;
+        &:hover{
+            background-color:#6acaca;
+            color: white;
+            order:1px solid #6acaca;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+.bxslider li{height:100vh;padding:100px;}
+.bx-viewport{
+    background-color: black;
+}
+.titre2{
+    display: inline-block;
+}
+.changeColor{
+    display: inline-block;
+    color:#6acaca;
+}
+.bx-wrapper{
+    border:none;
+}
+.bora-bora{
+    background-image:url("../img/bora-bora.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.montagne{
+    background-image:url("../img/montagne.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.van-covoit{
+    background-image:url("../img/van_covoit.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.desk{
+    background-image:url("../img/desk.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.buttons{
+  position: absolute;;
+  top:500px;
+  left:250px;
+  right:auto;
+  z-index:9998;
+}
+
+.buttons li{
+  display:inline-block;
+  padding:20px;
+  list-style-type:none;
+  font-size: 20px;
+}
+.slides{
+    color:white;
+    text-decoration: none;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
+    &:target{
+        text-decoration: none;
+        border-bottom: 4px white solid;
+    }
+}
+#slide0.active,
+#slide0:hover,
+#slide1.active,
+#slide1:hover,
+#slide2.active,
+#slide2:hover,
+#slide3.active,
+#slide3:hover{
+        border-bottom: white 3px solid;
+}
+.fa-google{
+    color:red;
+}

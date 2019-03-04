@@ -1,0 +1,96 @@
+#creation1{
+    padding-top:50px;
+    margin-right: 20px;
+    margin-left:20px;
+    & .background-image{
+        background-image:url('../img/adventure-casual-cheerful-541518.jpg');
+        background-size:cover;
+        background-position: Opx center;
+        height :100vh;
+        width :100%;
+        padding-top: 80px;
+        & .moduleBlanc{
+            background-color:white;
+            border-radius: 20px;
+            width: 100%;
+            padding-bottom:50px;
+            & .textModule{
+                padding-top: 110px;
+                padding-left: 40px;
+                & h2{
+                    font-weight: 600;
+                    line-height: 50px;
+                    font-size: 50px;
+                }
+                & .ecartLine{
+                    margin-bottom:20px;
+                }
+                & p{
+                    line-height: 20px;
+                    font-size: 25px;
+                    color:#6acaca;
+                }
+            }
+            & .inputModuleCreation{
+                padding-top: 110px;
+                padding-right: 40px;
+                & h2{
+                    color:#6acaca;
+                    margin-bottom: 10px;
+                }
+                & .form-control{
+                    width: 100%;
+                    height:100%;
+                    padding-top: 10px;
+                    padding-bottom:10px;
+                    margin-bottom: 20px;
+                }
+                & .form-control2{
+                    width: 100%;
+                    height:100%;
+                    padding-top: 10px;
+                    padding-bottom:100px;
+                    margin-bottom: 20px;
+                    padding-left:10px;
+                    border-radius: 10px;
+                    border: 1px solid lightgray;
+                }
+                & .controlValidation{
+                    margin-left: -40px;
+                    padding-bottom: 10px;
+                }
+                & .form-control-chiffre{
+                    padding-bottom:50px;
+                    padding-top: 50px;
+                    font-size: 80px;
+                    text-align: center;
+                    width: 100%;
+                    border-radius: 10px;
+                    border:2px solid lightgray;
+                }
+                & .form-row{
+                    margin-bottom: 20px;
+                }
+                & .custom-control-inline{
+                    margin-bottom:10px;
+                    margin-left:0px;
+                }
+                & a{
+                    text-decoration: none;
+                    width: 100%;
+                    & .btn-primary{
+                        background-color:#6acaca;
+                        border:1px solid #6acaca;
+                        font-size:30px;
+                        &:hover{
+                            background-color: white;
+                            color: #6acaca;
+                            border:1px solid #6acaca;
+                            font-size:30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

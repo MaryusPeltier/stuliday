@@ -1,0 +1,164 @@
+
+#profil-page{
+    padding-top:100px;
+    padding-bottom: 50px;
+    height: 100%;
+    & .module-profil{
+        background-color:#6acaca;
+        padding:20px 70px;
+        border-radius:20px;
+        & h2{
+            display:inline-block;
+            background-color:white;
+            color:#6acaca;
+            font-size:50px;
+            letter-spacing: 20px;
+            padding-left: 10px;
+        }
+        & h3,
+        p{
+            color:white;
+        }
+        & p{
+            margin-bottom:0px;
+            font-size: 12px;
+        }
+        & .star{
+            color: #e6cf0f;
+            margin-bottom: 20px;
+        }
+        & a{
+            display: block;
+            text-decoration: none;
+            color:white;
+        }
+        & .liens-voyages{
+            margin-left:20px;
+            font-size: 14px;
+            display: inline-block;
+            border-bottom: 1px solid white;
+        }
+        & .button-bottom{
+            margin:10px auto;
+            & .buttonComment{
+                border-radius: 10px;
+                border:1px solid white;
+                text-align: center;
+                margin-bottom:10px;
+                padding: 10px auto;
+            }
+            & .buttonMail{
+                border-radius: 10px;
+                border:1px solid white;
+                background-color:white;
+                color:#6acaca;
+                text-align: center;
+                margin-bottom:10px;
+                padding: 10px auto;
+            }
+            & .buttonWarning{
+                border-radius: 10px;
+                border:1px solid rgb(163, 39, 39);
+                background-color:rgb(163, 39, 39);
+                text-align: center;
+                padding: 10px auto;
+            }
+        }
+    }
+    .card-profil{
+        & .card{
+            background-color:rgba(0, 0, 0, 0);
+        }
+        & .h2{
+            margin-top: 20px;
+        }
+        & .container{
+            display: flex;
+            flex-flow: row wrap;
+        }
+        & .card{
+            border:none;
+        }
+        & .card-img-top{
+            border-radius: 50%;
+            position: absolute;
+            height: 70px;
+            width: 70px;
+            margin-left:65px;
+            margin-top:20px;
+            border:2px solid #6acaca;
+        }
+        & .card-body{
+            margin-top:50px;
+            padding-top:50px;
+            background-color:#e6e6e6;
+        }
+        & p{
+            font-size:13px;
+            font-weight: 600;
+            text-align: center;
+            color:black;
+        }
+        & .star{
+            color: #e6cf0f;
+            text-align: center;
+            margin-bottom:0px;
+        }
+    }
+    & .titreVoyages,
+    .titreAnnonces,
+    .titreCommentaires{
+        margin-bottom:20px;
+    }
+}
+.module-profil-nom{
+    background-color:#6acaca;
+    border-radius:20px;
+    margin-bottom:30px;
+    & .image-map{
+        background-image: url('../img/carte-bordeaux.png');
+        height:100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    & .col-7{
+        color:white;
+        text-align: center;
+        padding-top:38px;
+        padding-bottom: 38px;
+        & .module-profil-name{
+            font-weight: 900;
+            font-size: 40px;
+            line-height:40px;;
+        }
+        & .module-profil-surname{
+            font-weight: 100;
+            font-size: 40px;
+            line-height:40px;;
+        }
+        & .module-profil-age{
+            font-weight: 400;
+            font-size: 40px;
+            line-height:40px;;
+        }
+        & .module-profil-city{
+            background-color:white;
+            color:#6acaca;
+            font-size: 20px;
+            margin-right:60px;
+            margin-left:60px;
+        }
+    }
+}
+.image-profil{
+    background-image: url('../img/attractive-beard-blue-background-1080243.jpg');
+    height:500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}

@@ -1,0 +1,31 @@
+#packages{
+    margin-top: 50px;
+    & img{
+        width: 350px;
+        height: 200px;
+    }
+    & .row{
+        margin-top: 20px;
+    }
+    & .textColor{
+        color:#cc6600;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    & .textColor1{
+        color: #618132;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    & .textColor2{
+        font-weight: 600;
+        font-size: 15px;
+    }
+    & .titrePackage{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    & .paragraphePackage{
+        font-size: 13px;
+    }
+}
